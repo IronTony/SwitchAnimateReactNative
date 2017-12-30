@@ -11,6 +11,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-around'
 
+  },
+  text:{
+    fontSize:20,
+    color: '#2c3e50',
   }
 });
 export default class  App extends Component {
@@ -18,7 +22,13 @@ export default class  App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <AnimatedSwitch width={100} activeColor="#2ecc71" color="#AD1457" />
+        <Text style= {styles.text}>
+          Switchs with Animations.
+        </Text>
+        <Text style={styles.text}>
+          @faherrera
+        </Text>
+        <AnimatedSwitch width={100} activeColor="#3498db" />
         <AnimatedSwitch width={150} activeColor="#3498db" borderRadius/>
         <AnimatedSwitch width={200} activeColor="#e74c3c" />
         <AnimatedSwitch width={250} activeColor={"#2ecc71"} borderRadius/>

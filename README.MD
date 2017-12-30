@@ -2,3 +2,6 @@
 
 - Flat Colors from : [FlatColors](https://flatuicolors.com/)
 - Guiado por el amigo *Kenneth Luján R.* 
+
+> Learning React-Native's animations. 
+
